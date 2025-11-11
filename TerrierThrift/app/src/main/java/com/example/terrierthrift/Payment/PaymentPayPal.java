@@ -1,4 +1,4 @@
-package com.example.terrierthrift;
+package com.example.terrierthrift.Payment;
 
 public class PaymentPayPal extends PaymentMethod {
     private String authVenmo;
