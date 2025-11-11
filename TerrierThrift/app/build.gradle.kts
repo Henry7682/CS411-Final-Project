@@ -41,4 +41,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    // PayPal Checkout SDK
+    implementation("com.paypal.checkout:android-sdk:1.3.0")
+    // Braintree SDK (for Venmo)
+    implementation("com.braintreepayments.api:drop-in:6.12.0")
 }
